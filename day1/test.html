@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Store</title>
+ <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<div class="container">
+  <form id="bookForm">
+    <label for="numberOfBooks">Enter the number of books:</label>
+    <input type="number" id="numberOfBooks" min="1" required>
+    <button type="button" onclick="createBookForm()">Create Form</button>
+  </form>
+
+  <form id="bookInputForm" style="display: none;">
+    <table id="booksTable">
+      <thead>
+        <tr>
+          <th>Book Name</th>
+          <th>Book Price</th>
+          <th>Author Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="booksTableBody"></tbody>
+    </table>
+    <button type="button" onclick="submitForm()">Submit</button>
+  </form>
+</div>
+
+<script src="test.js"></script>
+
+</body>
+</html>

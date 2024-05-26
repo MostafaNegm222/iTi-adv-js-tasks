@@ -1,0 +1,141 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://images.wondershare.com/mockitt/tips/gradient-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.form {
+  position: relative;
+  top:6px;
+  left: 35%;
+}
+h2{
+  text-align: center;
+
+}
+.form-container {
+  width: 50%;
+  margin: 20px 20px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: #ff0800;
+  margin-top: 5px;
+  border: none;
+
+}
+
+
+button {
+  width: 180px;
+  height: 44px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  top: 20px;
+  left:4%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: #286090;
+}
+
+#table-container {
+  width: 80%;
+  margin: 20px auto;
+ 
+}
+
+#userTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#userTable tbody tr {
+  border-top: 1px solid #333;
+
+}
+#userTable th{
+  border-bottom:1px solid #fff;
+}
+#userTable th, #userTable td {
+ 
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+#userTable tfoot {
+  border: none;
+}
+
+#userTable th {
+  background-color: #333;
+  color: #fff;
+}
+
+  .edit, .delete, .save, .cancel {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .edit, .delete {
+    background-color: #45a019;
+    color: white;
+  }
+
+  .save, .cancel {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .editable {
+    background-color: #f9f9f9;
+  }
